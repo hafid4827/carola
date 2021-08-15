@@ -1,0 +1,65 @@
+textareadesing () {
+  display: block;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid pinkred_car;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.container-form-admin {
+  height: 100vh;
+  width: 100%;
+}
+.container-form-admin .form-admin__items {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .container-form-admin .form-admin__items {
+    flex-direction: column;
+  }
+}
+.container-form-admin .form-admin__items .table-add-items,
+.container-form-admin .form-admin__items .form-add-items {
+  width: 45%;
+}
+@media (max-width: 768px) {
+  .container-form-admin .form-admin__items .form-add-items {
+    flex-direction: column;
+  }
+}
+.container-form-admin .form-admin__items .form-add-items .form-add__label-img svg {
+  fill: blue_trhee;
+  width: 15rem;
+  height: 15rem;
+}
+.container-form-admin .form-admin__items .form-add-items .form-add__input-img {
+  display: none;
+}
+.container-form-admin .form-admin__items .form-add-items .form-section__two .form-add__label-category,
+.container-form-admin .form-admin__items .form-add-items .form-section__two .form-add__label-title,
+.container-form-admin .form-admin__items .form-add-items .form-section__two .form-add__label-textarea {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.container-form-admin .form-admin__items .table-add-items {
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  height: 10rem;
+}
+.container-form-admin .form-admin__items .table-add-items .table-row__thead {
+  text-transform: uppercase;
+}
+.container-form-admin .form-admin__items .table-add-items .table-row__tbody {
+  overflow: scroll;
+  height: 100%;
+  text-transform: capitalize;
+}
+.container-form-admin .form-admin__items .table-add-items .table-row__tbody .btn-item__list {
+  height: 3rem;
+  cursor: pointer;
+}
+.container-form-admin .form-admin__items .table-add-items .table-row__tbody .btn-item__list a {
+  color: #fff;
+}
